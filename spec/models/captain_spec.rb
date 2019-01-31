@@ -15,7 +15,7 @@ describe Captain do
     end
   end
 
-  describe "::talented_seafarers" do
+  describe "::talented_seamen" do
     it "returns captains of motorboats and sailboats" do
       captains = ["Captain Cook", "Samuel Axe"]
       expect(Captain.talented_seafarers.pluck(:name)).to eq(captains)
